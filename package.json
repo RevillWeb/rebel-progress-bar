@@ -1,0 +1,33 @@
+{
+  "name": "rebel-progress-bar",
+  "version": "0.0.1",
+  "description": "A simple vanilla web component to provide an easy to style and use progress bar.",
+  "main": "src/rebel-progress-bar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RevillWeb/rebel-progress-bar.git"
+  },
+  "keywords": [
+    "web",
+    "component",
+    "progress",
+    "bar",
+    "ES2015",
+    "vanilla",
+    "web",
+    "component"
+  ],
+  "author": "Leon Revill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RevillWeb/rebel-progress-bar/issues"
+  },
+  "homepage": "https://github.com/RevillWeb/rebel-progress-bar#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-preset-es2015": "^6.14.0"
+  }
+}

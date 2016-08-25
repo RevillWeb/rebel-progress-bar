@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rebel Progress Bar</title>
+    <script src="dependencies/skatejs-web-components.js"></script>
+    <script src="src/rebel-progress-bar.js"></script>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+        html {
+            font-family: 'Lato', sans-serif;
+        }
+        h1 {
+            margin: 0;
+        }
+        .btn {
+            background-color: #253b7f;
+            border: none;
+            color: #FFF;
+            padding: 0 20px;
+            line-height: 60px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 700;
+        }
+        .controls {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rebel Progress Bar</h1>
+    <p>A simple vanilla web component to provide an easy to style and use progress bar. Press the randomise button to see it working.</p>
+    <rebel-progress-bar id="pb" percent="90"></rebel-progress-bar>
+    <div class="controls">
+        <button class="btn">RANDOMISE</button>
+    </div>
+    <script>
+        var $btn = document.querySelector(".btn");
+        var $pb = document.querySelector("#pb");
+        $btn.addEventListener("click", function() {
+            var percent = Math.round(Math.random()*100);
+            $pb.setAttribute("percent", percent);
+        });
+    </script>
+</body>
+</html>
