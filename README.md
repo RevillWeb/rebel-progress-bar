@@ -3,6 +3,8 @@ Rebel Progress Bar
 
 A simple vanilla web component to provide an easy to style and use progress bar.
 
+- [Demo](http://revillweb.github.io/rebel-progress-bar/)
+
 Polyfills
 =====
 
